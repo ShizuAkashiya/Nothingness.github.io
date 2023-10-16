@@ -1,0 +1,16 @@
+div.container > div{
+    background-color: salmon;
+    margin: 10px;
+    font-size: 30px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
